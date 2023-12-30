@@ -1,0 +1,20 @@
+.nav {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-before {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-active {
+  text-decoration: none;
+  color: #0850fd;
+  font-size: 16px;
+  font-weight: 400;
+}

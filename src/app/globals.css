@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+}
+
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(22, 24, 35, 0.06);
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.news-content>p {
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.news-content>h2,
+h3,
+h4,
+h5 {
+  line-height: 42px;
+}
+
+.news-content>p>span>img {
+  width: 100%;
+}
+
+.news-content>p>img {
+  width: 100%;
+}
+
+.news-content>ul>li>span {
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.news-content>ul {
+  margin-left: 20px;
+}
+
+.news-content .ql-align-center {
+  text-align: center;
+}
+
+
+/* tour detail */
+.tour-content>p {
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.tour-content>h2,
+h3,
+h4,
+h5 {
+  line-height: 42px;
+}
+
+.tour-content>p>img {
+  width: 100%;
+}
+
+.ql-align-center>strong>img {
+  width: 100%;
+}
+
+.tour-content>p>em>img {
+  width: 100%;
+}
+
+.tour-content .ql-align-center {
+  text-align: center;
+}
+
+.tour-content>ul {
+  margin-left: 20px;
+}
+
+.tour-content>ul>li>span {
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.tour-content>ul>li {
+  font-weight: 300;
+  line-height: 24px;
+}
