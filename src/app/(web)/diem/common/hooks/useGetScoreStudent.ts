@@ -4,8 +4,9 @@ import { IParamsScore } from '../interface';
 import { getStudentScore } from '../service';
 
 export const useGetScoreStudent = (params: IParamsScore) => {
-  const { data: scoreStudentData, isLoading: isLoadingScoreStudent } = useQuery([QUERY_KEYS.SCORE_STUDENT], () =>
-    getStudentScore(params),
+  const { data: scoreStudentData, isLoading: isLoadingScoreStudent } = useQuery(
+    [QUERY_KEYS.SCORE_STUDENT, params],
+    () => getStudentScore(params),
   );
 
   return { scoreStudentData, isLoadingScoreStudent };

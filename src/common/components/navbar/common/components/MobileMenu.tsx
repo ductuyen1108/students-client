@@ -14,6 +14,7 @@ import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import { navigation } from '../contant';
 import { GRADIENT_COLOR, GRAY_700, PRIMARY_LIGHT } from '@/common/constants/colors';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 const icons = [
   { id: 1, icon: <HomeIcon /> },
@@ -36,21 +37,9 @@ const MobileMenu = () => {
           my: '23px',
         }}
       >
-        <Typography
-          sx={{
-            fontSize: '25px',
-            fontWeight: 700,
-            backgroundImage: GRADIENT_COLOR,
-            WebkitBackgroundClip: 'text',
-            color: 'transparent',
-            display: 'flex',
-            alignItems: 'center',
-            cursor: 'pointer',
-            gap: '10px',
-          }}
-        >
-          DT-Travel
-        </Typography>
+        <Link href="/" style={{ textDecoration: 'none' }}>
+          <Image src={'/images/logo.ver1.png'} alt="logo" width={120} height={40} />
+        </Link>
         <MenuIcon
           sx={{
             cursor: 'pointer',
@@ -84,21 +73,9 @@ const MobileMenu = () => {
             }}
           >
             <Box>
-              <Typography
-                sx={{
-                  fontSize: '25px',
-                  fontWeight: 700,
-                  backgroundImage: GRADIENT_COLOR,
-                  WebkitBackgroundClip: 'text',
-                  color: 'transparent',
-                  display: 'flex',
-                  alignItems: 'center',
-                  cursor: 'pointer',
-                  gap: '10px',
-                }}
-              >
-                DT-Travel
-              </Typography>
+              <Link href="/" style={{ textDecoration: 'none' }}>
+                <Image src={'/images/logo.ver1.png'} alt="logo" width={120} height={40} />
+              </Link>
             </Box>
           </Box>
           <List sx={{ width: '100%' }}>
@@ -120,7 +97,7 @@ const MobileMenu = () => {
               transform: 'translateX(-50%)',
             }}
           >
-            &#169; Duc Tuyen
+            &#169; Huy Hoang
           </Typography>
         </Box>
       </Drawer>

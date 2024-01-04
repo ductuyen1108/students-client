@@ -15,7 +15,7 @@ const Hero = () => {
     >
       <Container sx={{ textAlign: 'center' }}>
         <TitlePage
-          text="Chúng tôi là DT Travel - nơi cung cấp các dịch vụ du lịch hàng đầu Việt Nam hiện nay"
+          text="Chúng tôi là Cẩm Giang - nơi cung cấp các dịch vụ du lịch hàng đầu Việt Nam hiện nay"
           color="#fff"
         />
         <DescPage text="Những chuyến đi, trải nghiệm và địa điểm. Tất cả trong một dịch vụ" color="#fff" />

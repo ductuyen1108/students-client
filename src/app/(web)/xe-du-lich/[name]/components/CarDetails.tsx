@@ -23,7 +23,7 @@ const CarDetails = ({ name }: { name: string }) => {
       </Grid>
       <Grid item md={5}>
         <DescPage
-          text={`Dịch vụ thuê xe du lịch, thuê xe ${name}, thuê xe dịch vụ của công ty DT Travel đang được nhiều khách hàng lựa chọn tin dùng. Dàn xe đời mới hiện đại tại DT Travel đảm bảo luôn mang lại sự hài lòng cho quý khách hàng thuê xe.`}
+          text={`Dịch vụ thuê xe du lịch, thuê xe ${name}, thuê xe dịch vụ của công ty Cẩm Giang đang được nhiều khách hàng lựa chọn tin dùng. Dàn xe đời mới hiện đại tại Cẩm Giang đảm bảo luôn mang lại sự hài lòng cho quý khách hàng thuê xe.`}
           color="#333333"
         />
         <Box

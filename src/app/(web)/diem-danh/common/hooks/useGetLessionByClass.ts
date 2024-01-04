@@ -4,7 +4,7 @@ import { IParamsLession } from '../interface';
 import { getLessionByClass } from '../service';
 
 export const useGetLessionByClass = (params: IParamsLession) => {
-  const { data: scoreLessionData, isLoading: isLoadingLession } = useQuery([QUERY_KEYS.LESSION_BY_CLASS], () =>
+  const { data: scoreLessionData, isLoading: isLoadingLession } = useQuery([QUERY_KEYS.LESSION_BY_CLASS, params], () =>
     getLessionByClass(params),
   );
 

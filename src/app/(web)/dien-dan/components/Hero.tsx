@@ -14,7 +14,7 @@ const Hero = () => {
     >
       <Container>
         <Box sx={{ textAlign: 'center' }}>
-          <TitlePage text="Diễn đàn blog DT Travel" color="#fff" />
+          <TitlePage text="Diễn đàn blog Cẩm Giang" color="#fff" />
           <DescPage
             text="Nơi bạn có thể chia sẻ những blog hay của mình về chủ đề du lịch với mọi người và cùng theo dõi những bài viết hay từ cộng đồng."
             color="#fff"

@@ -18,7 +18,7 @@ const CarContact = () => {
         <Box sx={{ mb: '40px' }}>
           <TitlePage text="Xe du lịch" color={GRAY_700} />
           <DescPage
-            text="Xe du lịch – Phòng vận chuyển công ty DT Travel cung cấp và mang đến cho quý khách dịch vụ cho thuê xe  du lịch, thuê xe dịch vụ với giá cực tốt. Chúng tôi cho thuê  xe đời mới, thuê xe hoa, thuê xe Land Cruiser, thuê xe Audi A4, thuê xe Audi A6, cho thuê xe Audi R8, thuê xe A8, thuê xe Q5, thuê xe Q7. Hay dịch vụ thuê xe đám cưới, thuê xe Sienna, thuê xe Sedona, thuê xe Limousine, thuê xe Universe, thuê xe Limousine dcar,  E200,  E250, S400, S450, S500  từ 4 đến 47 chỗ của tất cả các hãng."
+            text="Xe du lịch – Phòng vận chuyển công ty Cẩm Giang cung cấp và mang đến cho quý khách dịch vụ cho thuê xe  du lịch, thuê xe dịch vụ với giá cực tốt. Chúng tôi cho thuê  xe đời mới, thuê xe hoa, thuê xe Land Cruiser, thuê xe Audi A4, thuê xe Audi A6, cho thuê xe Audi R8, thuê xe A8, thuê xe Q5, thuê xe Q7. Hay dịch vụ thuê xe đám cưới, thuê xe Sienna, thuê xe Sedona, thuê xe Limousine, thuê xe Universe, thuê xe Limousine dcar,  E200,  E250, S400, S450, S500  từ 4 đến 47 chỗ của tất cả các hãng."
             color="#333"
           />
         </Box>

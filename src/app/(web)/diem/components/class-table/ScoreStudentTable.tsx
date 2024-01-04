@@ -22,6 +22,7 @@ function ScoreStudentTable() {
   };
 
   const { scoreStudentData, isLoadingScoreStudent } = useGetScoreStudent(dataParams);
+  console.log('scoreStudent', scoreStudentData);
   const listScore = scoreStudentData?.items || [];
 
   const totalItem = scoreStudentData?.meta?.totalItems || 0;

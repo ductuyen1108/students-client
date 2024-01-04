@@ -8,12 +8,15 @@ import { setDataFilter } from '../common/slice';
 import { IParamsScore, IScoreStudentSubmitFilter } from '../common/interface';
 import RHFSelectPagination from '@/common/components/hook-form/RHFSelectPagination';
 import { useGetClassByScore } from '../common/hooks/useGetClassByScore';
+import { useQueryClient } from 'react-query';
+import { QUERY_KEYS } from '@/common/constants/queryKey.constants';
 
 type Props = {
   onSetPage: (value: number) => void;
 };
 
 function ScoreStudentFilter({ onSetPage }: Props) {
+  const queryClient = useQueryClient();
   const methods = useForm<IParamsScore>({
     defaultValues: {
       classId: undefined,
@@ -43,6 +46,12 @@ function ScoreStudentFilter({ onSetPage }: Props) {
     };
     onSetPage(0);
     dispatch(setDataFilter(dataFilter));
+    queryClient
+      .getQueryCache()
+      .findAll([QUERY_KEYS.SCORE_STUDENT])
+      .forEach(({ queryKey }) => {
+        queryClient.invalidateQueries(queryKey);
+      });
   };
 
   const handleClickDelete = () => {

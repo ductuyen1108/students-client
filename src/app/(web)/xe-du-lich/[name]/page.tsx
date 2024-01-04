@@ -9,7 +9,7 @@ const Page = ({ params }: { params: { name: string } }) => {
     <section>
       <Box sx={{ my: '100px' }}>
         <Container>
-          <TitlePage text={`Giá Thuê Xe ${params.name} Đề Xuất Từ DT Travel`} color={GRAY_700} />
+          <TitlePage text={`Giá Thuê Xe ${params.name} Đề Xuất Từ Cẩm Giang`} color={GRAY_700} />
           <CarDetails name={params.name} />
         </Container>
       </Box>

@@ -7,7 +7,7 @@ import NotistackProvider from '@/common/components/NotistackProvider';
 import Localization from '@/common/localization/Localization';
 
 export const metadata: Metadata = {
-  title: 'DT Travel',
+  title: 'Cẩm Giang',
   description: 'Traveling!',
 };
 
