@@ -54,10 +54,9 @@ const SideBar = () => {
       birthDate: data.birthDate,
       districtId: data.districtId?.code,
       provinceId: data.provinceId?.code,
-      email: data.email,
       name: data.name,
       wardId: data.wardId?.code,
-      classId: data.class.id,
+      classId: data.class?.id,
       family: [
         {
           name: data.fatherName,
@@ -136,8 +135,9 @@ const SideBar = () => {
             <FormProvider methods={methods} onSubmit={handleSubmit(onSubmit)}>
               <Stack direction={'row'} spacing={3}>
                 <Stack spacing={2}>
-                  <RHFTextField name="name" label="Họ và tên" />
-                  <RHFTextField name="email" label="Email" />
+                  <RHFTextField name="name" label="Tên" />
+                  <RHFTextField name="lastName" label="Họ và tên đệm" />
+                  <RHFTextField name="holyName" label="Tên thánh" />
                   <RHFDatePicker name="birthDate" label={'Ngày sinh'} size="small" />
                   <RHFTextField name="address" label="Địa chỉ cụ thể" />
                   <RHFSelectPagination

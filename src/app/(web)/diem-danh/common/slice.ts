@@ -4,7 +4,7 @@ import { IParamsLession, InitialLessionStudentState } from '../common/interface'
 
 const initialLessionState: InitialLessionStudentState = {
   dataSearch: {
-    classId: 1,
+    classId: undefined,
   },
   value: 0,
 };

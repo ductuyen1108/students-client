@@ -45,7 +45,7 @@ export interface IDataFormEditProfile {
   lastName: string;
   name: string;
   avatarId: number;
-  email: string;
+  email?: string;
   birthDate: string;
   gender: string;
   address: string;

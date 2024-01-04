@@ -28,7 +28,7 @@ const Login = () => {
       push('/');
     },
     onError: (err: any) => {
-      showErrorSnackbar(err?.response?.data?.message);
+      showErrorSnackbar('Đăng nhập thất bại! Vui lòng kiểm tra thông tin tài khoản hoặc mật khẩu');
     },
   });
 

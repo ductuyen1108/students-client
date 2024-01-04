@@ -13,7 +13,7 @@ const Articles = () => {
       <Container>
         <Box sx={{ textAlign: 'center' }}>
           <TitlePage text="Tin tức và thông báo" color="#000000" />
-          <DescPage text="Mọi tin tức và thông báo của trường được cập nhật hàng ngày" color="#8D9199" />
+          <DescPage text="Mọi tin tức và thông báo của đoàn được cập nhật hàng ngày" color="#8D9199" />
         </Box>
         <Grid container columnSpacing={3} rowSpacing={3} mt="50px">
           {listLatestNews?.map((item) => (
